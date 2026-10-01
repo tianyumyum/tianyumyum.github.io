@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tianyun Zhong — research in large language models, long-horizon agents, and post-training." />
+    <title>Tianyun Zhong · Research</title>
+    <link rel="stylesheet" href="assets/papermod.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav wrap">
+        <a class="wordmark" href="#top" aria-label="Tianyun Zhong home">Tianyun Zhong</a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#service">Service</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap" id="about">
+        <div class="hero-copy">
+          <h1>Hi, I’m Tianyun Zhong.</h1>
+          <p class="lead">M.S. student at the Institute of Software, Chinese Academy of Sciences, working on reliable, capable agents for scientific discovery and long-horizon decision-making.</p>
+          <div class="links" aria-label="Profile links">
+            <a class="button primary" href="assets/CV_TianyunZhong.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://github.com/tianyumyum" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="button" href="https://scholar.google.com/citations?user=K015R8cAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="mailto:zhongtianyun24@mails.ucas.ac.cn">Email <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/tianyun-zhong.jpg" alt="Portrait of Tianyun Zhong" />
+        </figure>
+      </section>
+
+      <section class="section wrap research-intro" id="research">
+        <div class="section-label">01 / Research interests</div>
+        <div>
+          <h2>Making agents reason, plan,<br />and work over <em>long horizons.</em></h2>
+          <div class="interest-grid">
+            <article><span>01</span><h3>LLM Agents</h3><p>Reasoning and planning for agents that interact with tools and environments.</p></article>
+            <article><span>02</span><h3>Long-Horizon Agents</h3><p>Optimization, continual decision-making, and resource management over extended trajectories.</p></article>
+            <article><span>03</span><h3>Post-Training &amp; Evaluation</h3><p>Preference optimization, LLM-as-a-Judge evaluation, benchmarks, and synthetic data.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="publications">
+        <div class="section-label">02 / Selected publications</div>
+        <div class="publication-list">
+          <article class="publication featured">
+            <div class="pub-meta">UNDER REVIEW</div>
+            <div class="pub-body">
+              <p class="project">SCI-AGENT-EXAM</p>
+              <h3>Benchmarking Agents on Scientific Research Tasks</h3>
+              <p class="authors"><strong>Tianyun Zhong</strong>, Wei Wang, Jialin Li, Jianhong Tu, Liyao Li, Chuqiao Kuang, Tianshi Zheng, Songchi Zhou, Weiqi Zhai, Qile Jin, Jiajia Li, Jiasheng Zheng, Boxi Cao, Yaojie Lu, Hongyu Lin, et al.</p>
+              <p>A workflow-oriented benchmark of 120 executable tasks across 11 scientific domains and 7 research task types, with hybrid evaluation of execution and presentation.</p>
+            </div>
+          </article>
+          <article class="publication featured">
+            <div class="pub-meta">UNDER REVIEW · CO-FIRST AUTHOR</div>
+            <div class="pub-body">
+              <p class="project">LONGGAMEBENCH</p>
+              <h3>Are LLMs Long-Termist? Evaluating Long-Horizon Optimization in Roguelike Environments</h3>
+              <p class="authors">Wenjuan Zhang*, <strong>Tianyun Zhong*</strong>, Wei Wang, Yaojie Lu, Li Wenbo, Yuzhen Shi, Boxi Cao, Shiwei Ye, Hongyu Lin, Bing Zhao, Hu Wei, Lin Qu, Le Sun, Xianpei Han.</p>
+              <p>A unified Agent–Environment benchmark for Long-Horizon Optimization, evaluated with 15 frontier LLMs across 6 agent harnesses and 1,000+ complete trajectories.</p>
+            </div>
+          </article>
+          <article class="publication featured">
+            <div class="pub-meta">ARXIV</div>
+            <div class="pub-body">
+              <p class="project">HYPOARENA</p>
+              <h3>Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery</h3>
+              <p class="authors"><strong>Tianyun Zhong</strong>, Wangyi Jiang, Wei Wang, Xuanang Chen, Yaojie Lu, Shiwei Ye, Yuzhen Shi, Boyu Yang, Jinghang Wang, Han Li, Haiyang Yu, Yongbin Li, Hongyu Lin, Le Sun, Xianpei Han.</p>
+              <p>Introduces Prospective Hypothesis Discovery and Retrospective Context Regression, with Arena-style pairwise evaluation for open-ended hypothesis generation.</p>
+              <p class="pub-links"><a href="https://arxiv.org/abs/2607.15766" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/tianyumyum/Hypo-Arena" target="_blank" rel="noopener">Code ↗</a><a href="https://huggingface.co/datasets/HypoArena/HypoData" target="_blank" rel="noopener">Data ↗</a></p>
+            </div>
+          </article>
+          <article class="publication compact">
+            <div class="pub-meta">AACL-IJCNLP 2026</div>
+            <div class="pub-body"><h3>Beyond Isolated Dots: Benchmarking Structured Table Construction as Deep Knowledge Extraction</h3><p class="authors"><strong>Tianyun Zhong</strong>, Guozhao Mo, Yanjiang Liu, Yihan Chen, Lingdi Kong, Xuanang Chen, Yaojie Lu, Hongyu Lin, Shiwei Ye, Shanshan Jiang, Bin Dong, Le Sun, Ben He, Xianpei Han.</p><p class="pub-links"><a href="https://arxiv.org/pdf/2507.16271" target="_blank" rel="noopener">Paper ↗</a></p></div>
+          </article>
+          <article class="publication compact">
+            <div class="pub-meta">ACL FINDINGS 2024</div>
+            <div class="pub-body"><h3>XMC-Agent: Dynamic Navigation over Scalable Hierarchical Index for Incremental Extreme Multi-label Classification</h3><p class="authors">Yanjiang Liu, <strong>Tianyun Zhong</strong>, Yaojie Lu, Hongyu Lin, Ben He, Shuheng Zhou, Huijia Zhu, Weiqiang Wang, Zhongyi Liu, Xianpei Han, Le Sun.</p><p class="pub-links"><a href="https://aclanthology.org/2024.findings-acl.336/" target="_blank" rel="noopener">Paper ↗</a></p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section wrap" id="experience">
+        <div class="section-label">03 / Research experience</div>
+        <div class="timeline">
+          <article><div class="time">OCT 2025 — PRESENT</div><div><h3>Alibaba Group · Tongyi</h3><p class="role">Research Intern</p><p>Built scientific and real-world coding-agent benchmarks, including executable environments, programmatic evaluation, and Agent-as-a-Judge assessment. Research contributor to LongGameBench and HypoArena.</p></div></article>
+          <article><div class="time">RESEARCH INTERNSHIP</div><div><h3>Baidu · PaddleNLP</h3><p class="role">Large-Model-Based Vector Retrieval</p><p>Built LLM embedding training, retrieval, and evaluation pipelines; proposed layer-contribution-based pruning for efficient inference. Core implementation was merged into the official PaddleNLP repository.</p><p class="pub-links"><a href="https://github.com/PaddlePaddle/PaddleNLP/tree/5dd2855a526cb07dbc2723608bbbf0ec4e518c1f/slm/pipelines/examples/contrastive_training" target="_blank" rel="noopener">Code ↗</a></p></div></article>
+          <article><div class="time">SEP 2024 — PRESENT</div><div><h3>Institute of Software, Chinese Academy of Sciences</h3><p class="role">M.S. in Electronic Information · Advisors: Xianpei Han, Le Sun</p><p>GPA 3.88/4.00 · Outstanding Student, UCAS.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section wrap service" id="service">
+        <div class="section-label">04 / Academic service</div>
+        <div><h2>Reviewer, <em>ACL Rolling Review</em></h2><p>2026</p></div>
+      </section>
+    </main>
+    <footer class="wrap"><p>© <span id="year"></span> Tianyun Zhong</p><a href="#top">Back to top ↑</a></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
