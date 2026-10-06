@@ -22,6 +22,7 @@ nav a:hover, footer a:hover, .text-link:hover, .pub-links a:hover { text-decorat
 .button:hover { border-color: var(--primary); }
 .button.pending { color: var(--secondary); cursor: default; }
 .text-link { color: var(--primary); margin-left: 5px; font-size: 13px; text-decoration: none; }
+.contact-email { color: var(--secondary); font-size: 13px; }
 .scholar-note { margin: 11px 0 0; color: var(--secondary); font-size: 12px; }
 .portrait { width: 176px; height: 220px; margin: 0; overflow: hidden; border-radius: 5px; background: var(--code); }
 .portrait img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 67%; }
