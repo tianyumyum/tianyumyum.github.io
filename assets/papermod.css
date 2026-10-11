@@ -39,6 +39,7 @@ h2 { font-size: 26px; letter-spacing: -.5px; }
 .publication:first-child { border-top: 0; }
 .pub-meta { padding-top: 4px; }
 .project { margin: 0 0 6px; }
+.internship-note { margin: 0 0 7px !important; color: var(--secondary); font-size: 12px; font-style: italic; }
 .pub-body h3 { font-size: 18px; letter-spacing: -.25px; }
 .pub-body p { margin: 8px 0 0; }
 .pub-body > p:not(.authors):not(.pub-links) { color: var(--secondary); font-size: 14px; }
