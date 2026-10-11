@@ -16,6 +16,7 @@ nav a:hover, footer a:hover, .text-link:hover, .pub-links a:hover { text-decorat
 .hero h1 em, h2 em { font-style: normal; }
 .eyebrow { margin: 0 0 14px; color: var(--secondary); font-size: 13px; letter-spacing: 0; }
 .lead { max-width: 680px; margin: 20px 0 26px; color: var(--secondary); font-size: 17px; }
+.research-lead { margin-top: -8px; }
 .lead a { color: var(--primary); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .links { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .button { display: inline-flex; align-items: center; padding: 6px 10px; border: 1px solid var(--tertiary); border-radius: 5px; color: var(--primary); background: var(--entry); text-decoration: none; font-size: 13px; }
